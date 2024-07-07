@@ -125,7 +125,7 @@ for sheet_name in xls.sheet_names:
     plt.savefig(plot_filename)
     plt.close()
 
-    # Add plots and details to the Word document
+
     doc.add_heading(sheet_name, level=1)
     doc.add_picture(plot_filename, width=Inches(6))
     doc.add_paragraph(f'Model 1 - a: {a:.2f}, b: {b:.2f}, c: {c:.2f}, RMSE: {rmse_original:.2f}')
@@ -133,10 +133,8 @@ for sheet_name in xls.sheet_names:
     doc.add_paragraph(f'Power Law - C: {C_opt:.2f}, λ: {lambda_opt:.2f}, RMSE: {rmse_power_law:.2f}')
     doc.add_paragraph(f'H Formula - a: {a_h:.2f}, b: {b_h:.2f}, c: {c_h:.2f}, RMSE: {rmse_h:.2f}')
 
-# Save the Word document
 doc_filename = 'plots_and_results.docx'
 doc.save(doc_filename)
 
-# Download the Word document
 from google.colab import files
 files.download(doc_filename)
