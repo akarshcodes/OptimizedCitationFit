@@ -1,3 +1,4 @@
+pip install pandas numpy matplotlib scipy xlsxwriter openpyxl docx python-docx PyQt5 tkinter
 import sys
 import pandas as pd
 import numpy as np
