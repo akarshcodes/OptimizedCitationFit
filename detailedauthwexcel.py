@@ -105,36 +105,36 @@ for file_name in uploaded.keys():
             'M': [M],
             'N': [N],
             'h': [h],
-            'a': [a],
-            'b': [b],
-            'c': [c],
-            'RMSE': [rmse_original]
+            '00ha': [a],
+            '00hb': [b],
+            '00hc': [c],
+            '00hRMSE': [rmse_original]
         })
         original_model_df = pd.concat([original_model_df, original_row], ignore_index=True)
 
         optimized_row = pd.DataFrame({
             'Sheet': [sheet_name],
-            'a_opt': [a_opt],
-            'b_opt': [b_opt],
-            'c_opt': [c_opt],
-            'RMSEEQN2': [rmse_eqn2]
+            'aCE': [a_opt],
+            'bCE': [b_opt],
+            'cCE': [c_opt],
+            'RMSECE': [rmse_eqn2]
         })
         optimized_model_df = pd.concat([optimized_model_df, optimized_row], ignore_index=True)
 
         power_law_row = pd.DataFrame({
             'Sheet': [sheet_name],
-            'C_opt': [C_opt],
-            'lambda_opt': [lambda_opt],
-            'RMSE_PowerLaw': [rmse_power_law]
+            'CPL': [C_opt],
+            'lamPL': [lambda_opt],
+            'RMSEPL': [rmse_power_law]
         })
         power_law_model_df = pd.concat([power_law_model_df, power_law_row], ignore_index=True)
 
         h_formula_row = pd.DataFrame({
             'Sheet': [sheet_name],
-            'a_h': [a_h],
-            'b_h': [b_h],
-            'c_h': [c_h],
-            'RMSE': [rmse_h]
+            'a11h': [a_h],
+            'b11h': [b_h],
+            'c11h': [c_h],
+            'RMSE11h': [rmse_h]
         })
         h_formula_model_df = pd.concat([h_formula_model_df, h_formula_row], ignore_index=True)
 
