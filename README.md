@@ -41,9 +41,9 @@ pip install pandas numpy scipy matplotlib python-docx
 - **h_star.py:** Calculates h-index related metrics.
 - **eq_calculator.py:** Equation-based calculations for citation analysis.
 - **plotsFINAL.ipynb:** Notebook for generating final plots.
-- **final_file_handling.ipynb:** Handles CSV file processing and data management.
+- **final_file_handling.ipynb:** Handles file processing and data management.
 - **scatter_for_2_files.py:** Creates scatter plots comparing two datasets. 
-- ** Similarly refer other python files:** 
+- ** Similarly refer other python files/ jupyter notebooks:** 
 
 ## Examples
 Refer to the provided Jupyter Notebooks for step-by-step examples:
@@ -57,4 +57,4 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 This project is licensed under the MIT License.
 
 ## Contact
-For any queries, please open an issue in the repository or contact the maintainers. (Akarsh Srivastava or Prof. YC Tay, Dept. of Computer Science, NUS Singapore)
+For any queries on naming convention, please open an issue in the repository or contact the maintainers. (Akarsh Srivastava or Prof. YC Tay, Dept. of Computer Science, NUS Singapore)
