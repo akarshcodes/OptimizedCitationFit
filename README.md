@@ -56,4 +56,4 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 This project is licensed under the MIT License.
 
 ## Contact
-For any queries, please open an issue in the repository or contact the maintainer.
+For any queries, please open an issue in the repository or contact the maintainers. (Akarsh Srivastava or Prof. YC Tay, Dept. of Computer Science, NUS Singapore)
