@@ -29,7 +29,7 @@ pip install pandas numpy scipy matplotlib python-docx
    ```
 
 ## Usage
-1. **Upload CSV Data:** Place your citation data in an Excel file.
+1. **Upload .xlsx Data:** Place your citation data in an Excel file.
 2. **Run the Scripts:** Execute the provided Python scripts to perform data fitting, optimization, and visualization.
    - Example:
      ```bash
