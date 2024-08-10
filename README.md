@@ -1,10 +1,10 @@
 
 # OptimizedCitationFit
 
-OptimizedCitationFit is a Python-based model designed for optimizing citation data fitting. The tool allows users to upload CSV files, perform parameter optimization, visualize results, and generate comprehensive reports. The package leverages popular libraries such as Pandas, NumPy, SciPy, Matplotlib, and python-docx to streamline citation data analysis and modeling.
+OptimizedCitationFit is a Python-based model designed for optimizing citation data fitting. The tool allows users to upload Excel files, perform parameter optimization, visualize results, and generate comprehensive reports. The package leverages popular libraries such as Pandas, NumPy, SciPy, Matplotlib, and python-docx to streamline citation data analysis and modeling.
 
 ## Features
-- **CSV Uploads:** Easily upload citation data in CSV format.
+- **Excel Uploads:** Easily upload citation data in .xlsx format.
 - **Parameter Optimization:** Utilize advanced algorithms to optimize fitting parameters for citation data.
 - **Visualization:** Generate detailed plots and visualizations to analyze citation trends.
 - **Report Generation:** Automatically generate professional reports in Word format summarizing the analysis.
@@ -29,7 +29,7 @@ pip install pandas numpy scipy matplotlib python-docx
    ```
 
 ## Usage
-1. **Upload CSV Data:** Place your citation data in a CSV file.
+1. **Upload CSV Data:** Place your citation data in an Excel file.
 2. **Run the Scripts:** Execute the provided Python scripts to perform data fitting, optimization, and visualization.
    - Example:
      ```bash
@@ -42,7 +42,8 @@ pip install pandas numpy scipy matplotlib python-docx
 - **eq_calculator.py:** Equation-based calculations for citation analysis.
 - **plotsFINAL.ipynb:** Notebook for generating final plots.
 - **final_file_handling.ipynb:** Handles CSV file processing and data management.
-- **scatter_for_2_files.py:** Creates scatter plots comparing two datasets.
+- **scatter_for_2_files.py:** Creates scatter plots comparing two datasets. 
+- ** Similarly refer other python files:** 
 
 ## Examples
 Refer to the provided Jupyter Notebooks for step-by-step examples:
